@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>theran service</title>
     <link rel="stylesheet" href="./Style.css" />
+    <link rel="stylesheet" href="./mediaquery.css">
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./font.css" />
     <link rel="icon" href="./images/cropped-cropped-logo-type-jpg - Copy.jpg" />
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="desktop-header">
         <div class="top-bar">
           <span class="phone"
             ><img
@@ -66,6 +67,10 @@
           </nav>
         </div>
       </header>
+      <div class="mobile-header">
+        <img src="./images/menu-symbol-of-three-parallel-lines-svgrepo-com.svg" alt="">
+        <img src="./images/cropped-cropped-logo-type-jpg.webp" alt="">
+      </div>
       <main>
         <section class="intro">
           <h2>تهران سرویس آنلاین</h2>
@@ -155,7 +160,7 @@
             </div>
           </div>
         </section>
-        <div class="contact-us">
+        <section class="contact-us">
           <div class="call">
             <img src="./images/call-center.jpg" alt="" />
             <h4>اعزام کارشناس به تمامی نقاط تهران زیر یکساعت</h4>
@@ -223,7 +228,8 @@
                 <div>
                   <label for="mobile">شماره موبایل</label>
                 </div>
-                <input class="ltr-number"
+                <input
+                  class="ltr-number"
                   type="text"
                   id="mobile"
                   name="mobile"
@@ -254,8 +260,96 @@
               <button type="submit">ارسال درخواست</button>
             </form>
           </div>
+        </section>
+        <div class="details-container">
+          <div class="details">
+            <div class="rating">
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>☆</span>
+              <span>(1)</span>
+            </div>
+            <h1>تهران سرویس آنلاین</h1>
+          </div>
+          <div class="content">
+            <p class="highlight">
+              در تهران سرویس آنلاین بیشترین کیفیت خدمات را با کمترین قیمت ها
+              تجربه کنید.
+            </p>
+            <p>
+              تمامی خدمات تهران سرویس آنلاین با ضمانت نامه شش ماهه در سراسر
+              تهران انجام می پذیرد.
+            </p>
+            <h4>خدمات ما شامل:</h4>
+            <ul class="services-list">
+              <li>نصب کولرگازی</li>
+              <li>سرویس کولرگازی</li>
+              <li>تعمیر کولرگازی</li>
+              <li>نصب داکت اسپلیت</li>
+              <li>سرویس داکت اسپلیت</li>
+              <li>تعمیر داکت اسپلیت</li>
+              <li>سرویس پکیج</li>
+              <li>تعمیر پکیج</li>
+            </ul>
+            <p>کیفیت، اخلاق حرفه ای و رضایت از تعمیرات را با ما تجربه کنید.</p>
+            <p>
+              ما در کار خود بهترین هستیم و تضمین می دهیم. در اسرع وقت و کمترین
+              هزینه به صورت ۲۴ ساعته در سراسر تهران به شما عزیزان خدمت رسانی
+              کنید.
+            </p>
+            <p>
+              با کارشناسان متخصص تهران سرویس آنلاین میتوانید تمامی خدمات سیستم
+              های برودتی و حرارتی خود را با بهترین کیفیت در محل دریافت کنید.
+            </p>
+            <p class="highlight">با ما فقط یک تماس فاصله دارید.</p>
+            <p>چقدر از خواندن این پست لذت بردید؟</p>
+            <div class="end-rating">
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>☆</span>
+            </div>
+          </div>
         </div>
       </main>
+      <footer class="footer">
+        <div class="social-media">
+          <h3 class="footer__titr">شبکه‌های اجتماعی</h3>
+          <div class="social-media__icon">
+            <img
+              class="insta"
+              src="./images/instagram-logo-instagram-icon-transparent-free-png.webp"
+              alt=""
+            />
+            <img
+              src="./images/Bildschirmfoto_2018-05-17_um_13-1977c8577a2df31c.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="application">
+          <h3 class="footer__titr">دانلود اپلیکیشن</h3>
+          <a href="#">Android(به‌زودی)</a>
+          <a href="#">ios(به‌زودی)</a>
+        </div>
+        <div class="license">
+          <h3 class="footer__titr">مجوزها و نمادها</h3>
+          <img
+            src="./images/وکتور-لوگو-آرم-نماد-اعتماد-الکتورنیکی-اینماد-1.webp"
+            alt=""
+          />
+          <span>نماد اعتماد و کیفیت</span>
+        </div>
+        <p>
+          کلیه حقوق مادی و معنوی این سایت برای تهران سرویس محفوظ است. استفاده از
+          محتوای سایت تنها در صورت پذیرش شرایط و ضوابط امکان پذیر است.
+          <br />
+          © ۱۴۰۳ - تهران سرویس آنلاین
+        </p>
+      </footer>
     </div>
   </body>
 </html>
